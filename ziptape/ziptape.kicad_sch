@@ -5,10 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Zip Tape Adapter")
+    (title "PAL-1 Zip Tape Adapter")
     (date "Jan 2023")
     (rev "1.0a")
-    (company "Plastic Objects")
+    (company "Plastic Objects Limited")
   )
 
   (lib_symbols
@@ -1521,8 +1521,8 @@
     (in_bom yes) (on_board yes)
     (uuid 96751943-8ac7-4616-b527-cce88d214ba8)
     (property "Reference" "J5" (id 0) (at 81.28 46.99 0))
-    (property "Value" "" (id 1) (at 81.28 49.53 0))
-    (property "Footprint" "" (id 2) (at 80.01 64.77 0)
+    (property "Value" "Conn_Adapter_B" (id 1) (at 81.28 49.53 0))
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" (id 2) (at 80.01 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 80.01 64.77 0)
@@ -1650,8 +1650,8 @@
     (in_bom yes) (on_board yes)
     (uuid e2ef50a0-fe26-4b66-a05b-70f3a39b815f)
     (property "Reference" "J3" (id 0) (at 198.12 92.71 0))
-    (property "Value" "" (id 1) (at 198.12 95.25 0))
-    (property "Footprint" "" (id 2) (at 196.85 110.49 0)
+    (property "Value" "Conn_RIOT" (id 1) (at 198.12 95.25 0))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" (id 2) (at 196.85 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 196.85 110.49 0)
